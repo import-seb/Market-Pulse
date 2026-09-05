@@ -6,20 +6,23 @@ Findings should include enough information that another team member can understa
 
 ---
 
-## EX. Finding 001 — Google Trends data for this term is too sparse before 2018
+## EX. Finding 001 — Census sales figures are not adjusted for inflation
 
-**Date:** ...
+**Date:** 9/4/2026
 
 **Finding:**
-...
+The Census sales figures are not adjusted for inflation, even when seasonally adjusted. 
 
 **Source:**
-...
+`docs\research\data_search\retail and food services sales.xlsx`
 
 **Why it matters:**
-This may affect how often Market Pulse produces a new conclusion.
+We'll have to join CPI/PCE price indexes so we can distinguish “people spent more dollars” from “people actually bought more stuff.”
 
 **Related work:**
-`src\ingestion`
+N/A
+
+---
+
 
 ---
